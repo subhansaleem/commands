@@ -1,0 +1,26 @@
+git init    //to iniatialize
+git add <file>    //add files
+git status    //status of working tree
+git commit    //commit changes
+git commit -m ''    //commit without opening vim
+git push    //push to remote repository
+git pull    //pull latest work from remote
+git clone   //clone repository into new directory
+
+git config --global user.name ''
+git config --global user.email ''
+
+git rm --cached <file>    //to unstage
+
+touch .gitignore    //ignore files when adding
+    in .girignoew add file name
+    /<foldername> //for folder
+
+git branch <name>   //for creating branch
+git checkout <branch name>    //to switch branch
+git merge <branch name>   //to merge with main branch
+git remote    //to check remote repositories
+git remote add origin <link of repository>
+git push -u origin master/main    //to add/push to repository (first time)
+git push    //to push
+git clone <repo link>   //to clone
