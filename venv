@@ -1,0 +1,4 @@
+py -m venv <project-name>
+activate the venv.
+
+pip install -r requirements.txt     //to install requirements 
