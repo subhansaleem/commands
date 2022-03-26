@@ -13,3 +13,5 @@
 
 5. Push to Heroku master to deploy updates:
   git push heroku master
+
+https://dev.to/jessesbyers/how-to-update-a-deployed-app-on-heroku-3fde
