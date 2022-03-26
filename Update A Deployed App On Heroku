@@ -1,0 +1,15 @@
+1. Clone the repository from GitHub to your local device:
+  git clone <YOUR HTTPS URL FROM GITHUB>
+2. Make your changes, and commit them to GitHub:
+  git add .
+  git commit -m "<YOUR COMMIT MESSAGE>"
+  git push origin <YOUR BRANCH NAME>
+
+3. Login to your Heroku account:
+  heroku login
+
+4. Set remote for your project:
+  heroku git:remote -a <YOUR PROJECT NAME>
+
+5. Push to Heroku master to deploy updates:
+  git push heroku master
