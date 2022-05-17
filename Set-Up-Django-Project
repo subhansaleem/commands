@@ -1,0 +1,4 @@
+django-admin.py startproject <name>
+or
+django-admin.exe startproject <name>
+
